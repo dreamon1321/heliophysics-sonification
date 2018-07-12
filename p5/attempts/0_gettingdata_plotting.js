@@ -2,7 +2,7 @@ var url = 'https://raw.githubusercontent.com/hopelessoptimism/data-sonification/
 
 var margin = { top: 20, right: 20, bottom: 30, left: 40 };
 var width = 960 - margin.left - margin.right;
-var height - 500 - margin.top - margin.bottom;
+var height = 500 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
 				.range([0, width]);
