@@ -3,6 +3,18 @@
 	{
 		"selected_items":
 		[
+			[
+				"sol",
+				"sold_max"
+			],
+			[
+				"delin",
+				"delinq_max"
+			],
+			[
+				"del",
+				"delinq_min"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +23,8 @@
 			"file": "0_gettingdata_sonification.js",
 			"settings":
 			{
-				"buffer_size": 441,
+				"buffer_size": 2794,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -19,7 +32,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 460,
+				"buffer_size": 543,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -133,23 +147,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 441,
+						"buffer_size": 2794,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1003,
+								1003
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 237.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -161,15 +176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 460,
+						"buffer_size": 543,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								161,
+								161
 							]
 						],
 						"settings":
