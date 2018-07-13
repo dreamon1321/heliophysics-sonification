@@ -35,15 +35,11 @@ d3.csv(url, function(data) {
 						.attr('transform','translate(' + margin.left + ',' + margin.top + ')');
 
 	// Axes Creation
-	var xAxis = d3.svg.axis()
-					.scale(xScale)
+	var xAxis = d3.axisBottom(xScale)
 					.tickFormat(formatPercent)
-					.ticks(5)
-					.orient('bottom');
-	var yAxis = d3.svg.axis()
-					.scale(yScale)
-					.ticks(5)
-					.orient('left');
+					.ticks(5);
+	var yAxis = d3.axisLeft(yScale)
+					.ticks(5);
 
 	// Scatter Plot Dots
 	var circles = svg.selectAll('circle')
@@ -77,7 +73,7 @@ d3.csv(url, function(data) {
 					.append('title')
 						.text(function(d) {
 							return `${d.date}\nUnemployment Rate: ${d.unemployment}\nHouses Sold: ${d.houses_sold}`;
-						};
+						});
 
 	// Axes Customization
 	// X-axis
