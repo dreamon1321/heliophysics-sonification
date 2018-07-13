@@ -73,7 +73,7 @@ d3.csv(url, function(data) {
 								.duration(500)
 								.attr('r', 3)
 								.attr('stroke-width', 1);
-						});
+						})
 					.append('title')
 						.text(function(d) {
 							return `${d.date}\nUnemployment Rate: ${d.unemployment}\nHouses Sold: ${d.houses_sold}`;
